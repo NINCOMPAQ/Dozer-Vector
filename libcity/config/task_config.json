@@ -1,0 +1,36 @@
+{
+    "traffic_state_pred": {
+        "allowed_model": [
+            "PDFormer", "PDFormerPartition", "PDFormerSpatialPartition", "PDFormerTemporalPartition", "PDFormerDozer"
+        ],
+        "allowed_dataset": [
+            "PeMS04", "PeMS07", "PeMS08",
+            "NYCTaxi", "T-Drive", "CHIBike"
+        ],
+        "PDFormer": {
+            "dataset_class": "PDFormerDataset",
+            "executor": "PDFormerExecutor",
+            "evaluator": "TrafficStateEvaluator"
+        },
+        "PDFormerPartition": {
+            "dataset_class": "PDFormerDataset",
+            "executor": "PDFormerExecutor",
+            "evaluator": "TrafficStateEvaluator"
+        },
+        "PDFormerSpatialPartition": {
+            "dataset_class": "PDFormerDataset",
+            "executor": "PDFormerExecutor",
+            "evaluator": "TrafficStateEvaluator"
+        },
+        "PDFormerTemporalPartition": {
+            "dataset_class": "PDFormerDataset",
+            "executor": "PDFormerExecutor",
+            "evaluator": "TrafficStateEvaluator"
+        },
+        "PDFormerDozer": {
+            "dataset_class": "PDFormerDataset",
+            "executor": "PDFormerExecutor",
+            "evaluator": "TrafficStateEvaluator"
+        }
+    }
+}
