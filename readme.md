@@ -2,13 +2,6 @@
 
 This is a PyTorch implementation of Vector Field Embeddings with Sparse Dozer Attention (Dozer-Vector) implemented into Propagation Delay-aware Dynamic Long-range Transformer for Traffic Flow Prediction (**PDFormer**) for traffic flow prediction.
 
-
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/pdformer-propagation-delay-aware-dynamic-long/traffic-prediction-on-pemsd4)](https://paperswithcode.com/sota/traffic-prediction-on-pemsd4?p=pdformer-propagation-delay-aware-dynamic-long) 
-
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/pdformer-propagation-delay-aware-dynamic-long/traffic-prediction-on-pemsd7)](https://paperswithcode.com/sota/traffic-prediction-on-pemsd7?p=pdformer-propagation-delay-aware-dynamic-long) 
-
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/pdformer-propagation-delay-aware-dynamic-long/traffic-prediction-on-pemsd8)](https://paperswithcode.com/sota/traffic-prediction-on-pemsd8?p=pdformer-propagation-delay-aware-dynamic-long) 
-
 <img src="./framework.png" width="75%">
 
 ## Requirements
